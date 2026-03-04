@@ -130,17 +130,15 @@ Key takeaways:
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
-
+```text
 multi-sensor-streamflow-prediction/
-│
 ├── data/
 │   └── raw/
 │       ├── satellite.csv
 │       ├── ground.csv
 │       └── streamflow.csv
-│
 ├── src/
 │   ├── config.py
 │   ├── preprocessing.py
@@ -148,12 +146,10 @@ multi-sensor-streamflow-prediction/
 │   ├── fusion.py
 │   ├── models.py
 │   └── evaluation.py
-│
 ├── main.py
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## How to Run
 
