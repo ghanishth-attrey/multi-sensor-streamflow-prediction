@@ -132,10 +132,14 @@ Key takeaways:
 
 ## Repository Structure
 
+
 multi-sensor-streamflow-prediction/
 │
 ├── data/
 │   └── raw/
+│       ├── satellite.csv
+│       ├── ground.csv
+│       └── streamflow.csv
 │
 ├── src/
 │   ├── config.py
@@ -143,7 +147,7 @@ multi-sensor-streamflow-prediction/
 │   ├── feature_engineering.py
 │   ├── fusion.py
 │   ├── models.py
-│   ├── evaluation.py
+│   └── evaluation.py
 │
 ├── main.py
 ├── requirements.txt
