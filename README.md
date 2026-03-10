@@ -40,7 +40,7 @@ This makes it a good candidate for testing rainfall fusion strategies.
 
 ## Data Sources
 
-The datasets used in this project include:
+The datasets used in this project are generated after taking studying trends from:
 
 - Satellite rainfall (GPM IMERG)  
 - Ground rainfall (IMD gridded dataset)  
